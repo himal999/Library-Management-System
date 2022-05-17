@@ -1,0 +1,18 @@
+{
+  "name": "Libray-API",
+  "version": "1.0.0",
+  "description": "Libray API",
+  "main": "app.js",
+  "author": "Himal",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon --exec  babel-node src/app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.12",
+    "nodemon": "^2.0.16"
+  }
+}
